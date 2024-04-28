@@ -86,7 +86,7 @@ const BinPage = () => {
 
   return (
     <div className="HomePage">
-      <nav className="navbar">
+      <nav className="navbar" style={{ backgroundColor: 'black' }}>
         <h1 className="navbar-brand">Google Photos</h1>
         <div className="search-bar">
           <input type="text" className="search-input" placeholder="Search..." />
